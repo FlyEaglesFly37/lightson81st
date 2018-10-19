@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+#logo {
+    text-align: center;
+    background-color: black;
+}
+
+#logo img {
+    height: auto;
+    width: 60%;
+}
+
+.about p {
+    text-align: center;
+    font-family: "Aclonica";
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 5% 15%;
+}
+
+.address {
+    margin-top: 5%;
+    text-align: center;
+    font-family: "Aclonica";
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.radio {
+    margin: 5% 15%;
+    text-align: center;
+    font-family: "Aclonica";
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.video {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact img {
+    margin: 3% 5%;
+    height: auto;
+    width: 5%;
+}
+
+#fb {
+    background-color: white;
+}
+
+@media only screen and (max-width: 500px){
+    #logo img{
+    height: auto;
+    width: 100%;
+}
+
+    .about p {
+        text-align: center;
+        font-family: "Aclonica";
+        font-size: 7vw;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+
+    .address {
+        margin-top: 5%;
+        text-align: center;
+        font-family: "Aclonica";
+        font-size: 7vw;
+        font-weight: bold;
+    }
+
+    .radio {
+        margin-top: 5%;
+        text-align: center;
+        font-family: "Aclonica";
+        font-size: 7vw;
+        font-weight: bold;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+        margin-top: 3%;
+    }
+
+    #contact img {
+        height: auto;
+        width: 20%;
+        background-color: white;
+        margin: 3% 3%;
+    }
+
+    #contact {
+        text-align: center;
+    }
+}
